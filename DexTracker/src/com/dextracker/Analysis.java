@@ -30,7 +30,7 @@ public class Analysis extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		 
+		 Log.i("Mark is a little gay boy", "Its trueeee");
         // fun little snippet that prevents users from taking screenshots
         // on ICS+ devices :-)
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,
